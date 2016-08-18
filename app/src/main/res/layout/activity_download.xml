@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <EditText
+        android:id="@+id/url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入下载视频的地址" />
+
+    <EditText
+        android:id="@+id/token"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入下载视频的Token" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/start_download"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="开始下载" />
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="删除" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/start_all_download"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="开启所有" />
+        <Button
+            android:id="@+id/stop_all_download"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="停止所有" />
+    </LinearLayout>
+    
+    <bf.cloud.BFSimpleListView
+        android:id="@+id/local_videos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </bf.cloud.BFSimpleListView>
+
+</LinearLayout>
