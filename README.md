@@ -1,20 +1,15 @@
-# MyBFonlive
-暴风云直播demo
 
 ---
-#项目名称
+#MyBFonlive
+暴风云直播demo
 -------------
 
 > 关于我，欢迎关注  
   博客：http://blog.csdn.net/jujishou521/article/details/52233692 
- 
 
-Github项目README.md模板  
-（项目背景/作用介绍）
 
 ####示例:  
-把使用了该项目的案例放在这里。可以放APK下载链接，或者简单放几张截图。  
-（示例一开始就放出来，方便浏览者一眼就看出是不是想找的东西）
+![image](https://github.com/1008611/MyBFonlive/blob/master/img/1234.png)
 
 ###特性（可选）
 - 特性A
@@ -22,24 +17,9 @@ Github项目README.md模板
 - 特性B
 
 ###原理说明（可选）
-阐述项目是基于什么思路设计的
-
-
-### 下载安装
-Gradle:  
-``` xml
-compile 'xxx'
-```
-(说明项目的配置方法，android开源库多用Gradle导入)
+参考暴风云直播提供的eclipse demo，特意写的android studio版本。
 
 ###使用方法
-怎么使用，有哪些步骤哪些接口。
+直接下载运行
 
-### 注意事项
-比如混淆方法等
-
-###TODO（可选）
-接下来的开发/维护计划。
-
-## License
-遵守的协议
+## 更多详情可以参考blog
